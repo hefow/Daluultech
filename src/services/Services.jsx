@@ -14,7 +14,7 @@ function Services(){
                     </svg>
                     <img class="absolute text-blue-600 w-10 h-10" src="./images/brand.png" alt="brand" />
                 </div>
-                <h3 class="mt-8 text-lg font-semibold text-black">Branding</h3>
+                <h3 class="mt-8 text-lg font-semibold text-black">Graphic Design</h3>
                 <p class="mt-4 text-base text-gray-600">We help businesses stand out with impactful branding strategies that communicate value and build a strong identity.</p>
             </div>
 
@@ -50,7 +50,7 @@ function Services(){
                     <img class="absolute text-blue-600 w-10 h-10" src="./images/video.png" alt="vedeo" />
 
                 </div>
-                <h3 class="mt-8 text-lg font-semibold text-black">Motion & Video</h3>
+                <h3 class="mt-8 text-lg font-semibold text-black">Motion & Video editing</h3>
                 <p class="mt-4 text-base text-gray-600">Our motion graphics and video services bring your brand to life with engaging and dynamic visual storytelling.</p>
             </div>
 

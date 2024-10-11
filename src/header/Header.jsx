@@ -8,7 +8,7 @@ function Header(){
         <nav class="flex items-center justify-between h-16 lg:h-20">
             <div class="flex-shrink-0">
                 <a href="#" title="" class="flex">
-                    <img class="w-auto h-8 lg:h-10" src="https://scontent.fmgq1-2.fna.fbcdn.net/v/t39.30808-6/449625638_790701683270949_7470168558449010278_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=5SDmwdaOeEYQ7kNvgE1Y7Sy&_nc_ht=scontent.fmgq1-2.fna&_nc_gid=Ape92p_3aXHmCs6QMrIEwQw&oh=00_AYABDEZRypOftrqRhF2BFjA6n5xU1pp-DxIeo6sqT6lknA&oe=670492B6" alt="" />
+                    <img class="w-auto h-8 lg:h-10" src="/images/logo.jpg" alt="" />
                 </a>
             </div>
             <button type="button" class="inline-flex p-2 text-black transition-all duration-200 rounded-md lg:hidden focus:bg-gray-100 hover:bg-gray-100">
@@ -24,11 +24,11 @@ function Header(){
             <div class="hidden lg:flex lg:items-center lg:ml-auto lg:space-x-10">
                 <a href="#" title="" class="text-base font-medium text-black transition-all duration-200 hover:text-blue-600 focus:text-blue-600"> Home</a>
 
-                <a href="#" title="" class="text-base font-medium text-black transition-all duration-200 hover:text-blue-600 focus:text-blue-600"> Service </a>
+                <a href="#Services" title="" class="text-base font-medium text-black transition-all duration-200 hover:text-blue-600 focus:text-blue-600"> Service </a>
 
-                <a href="#" title="" class="text-base font-medium text-black transition-all duration-200 hover:text-blue-600 focus:text-blue-600"> About </a>
+                <a href="#About" title="" class="text-base font-medium text-black transition-all duration-200 hover:text-blue-600 focus:text-blue-600"> About </a>
 
-                <a href="#" title="" class="text-base font-medium text-black transition-all duration-200 hover:text-blue-600 focus:text-blue-600"> Contact </a>
+                <a href="#ContactForm" title="" class="text-base font-medium text-black transition-all duration-200 hover:text-blue-600 focus:text-blue-600"> Contact </a>
             </div>
 
             <a href="#" title="" class="items-center justify-center hidden px-4 py-3 ml-10 text-base font-semibold text-white transition-all duration-200 bg-blue-600 border border-transparent rounded-md lg:inline-flex hover:bg-blue-700 focus:bg-blue-700" role="button"> Get started now </a>

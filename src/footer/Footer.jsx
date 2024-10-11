@@ -111,7 +111,7 @@ function Footer(){
         <hr class="mt-16 mb-10 border-gray-200" />
 
         <div class="sm:flex sm:items-center sm:justify-between">
-            <p class="text-sm text-gray-600">© Copyright 2021, All Rights Reserved by Postcraft</p>
+            <p class="text-sm text-gray-600">© Copyright 2024, All Rights Reserved by Daluultech</p>
 
             <ul class="flex items-center mt-5 space-x-3 md:order-3 sm:mt-0">
                 <li>
