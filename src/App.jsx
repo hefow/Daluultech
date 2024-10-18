@@ -6,7 +6,6 @@ import About from "./about/About";
 import ContactForm from "./contact/ContactForm";
 import Footer from "./footer/Footer";
 
-
 function App(){
   return(
     <div>
@@ -16,7 +15,7 @@ function App(){
        <About/>
        <ContactForm/>
        <Footer/>
-    </div>
+       </div>
   )
 }
 

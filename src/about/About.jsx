@@ -1,36 +1,57 @@
 import React from "react";
+import img from '../images/img-3.jpg'
 
+function About() {
+  return (
+    <section id="About" className="py-20 bg-gradient-to-b from-gray-100 to-white">
+      <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
+        <div className="grid items-center grid-cols-1 gap-12 lg:grid-cols-2">
+          <div className="relative">
+            <div className="absolute inset-0 bg-gradient-to-r from-blue-500 to-purple-600 rounded-2xl transform rotate-3 scale-105 opacity-10"></div>
+            <img
+              className="relative z-10 w-full rounded-2xl shadow-xl"
+              src={img}
+              alt="Team working together"
+            />
+          </div>
 
-function About(){
-    return (
-    <section class="py-10 bg-white-100 lg:py-0">
-    <div class="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
-        <div class="grid items-stretch grid-cols-1 lg:grid-cols-2 gap-x-16 gap-y-12 xl:gap-x-24">
-            <div class="h-full pr-12 lg:order-2 lg:mb-40">
-                <div class="relative h-full lg:h-auto">
-                    <div class="absolute w-full h-full -mb-12 overflow-hidden bg-gradient-to-r from-fuchsia-600 to-blue-600 top-20 left-12 xl:left-16 lg:top-30 lg:scale-y-105 lg:origin-top">
-                        <img class="object-cover object-right w-full h-full scale-150" src="https://cdn.rareblocks.xyz/collection/celebration/images/content/2/lines.svg" alt="" />
-                    </div>
-                    <div class="relative lg:-top-200">
-                        <img class="" src="./images/img-3.jpg" alt="" />
-                    </div>
-                </div>
-            </div>
-
-            <div class="flex items-center justify-start py-10 lg:order-1 sm:py-16 lg:py-24 xl:py-48">
-                <div>
-                    <p class="text-sm font-semibold tracking-widest text-black-500 uppercase">Why Should your choose?</p>
-                    <h2 class="mt-8 text-3xl font-bold leading-tight text-black sm:text-4xl lg:text-5xl lg:leading-tight">Get work done, fast!</h2>
-                    <p class="text-xl leading-relaxed text-black-200 mt-9">Whether you’re looking to enhance your digital presence, streamline operations, or build a stronger brand, </p>
-                    <p class="mt-6 text-xl leading-relaxed text-black-200">Daluultech is your trusted partner for tech-driven innovation. We pride ourselves on a customer-first approach, delivering quality, reliability, and cutting-edge solutions for businesses of all sizes.</p>
-                    <a href="#" title="" class="inline-flex items-center justify-center px-10 py-4 mt-12 text-base font-semibold text-white transition-all duration-200 bg-blue-600 rounded-md hover:bg-blue-700 focus:bg-blue-700" role="button"> Explore more </a>
-                </div>
-            </div>
+          <div className="flex flex-col justify-center">
+            <p className="text-sm font-semibold tracking-widest text-blue-600 uppercase">
+              Why Choose Us?
+            </p>
+            <h2 className="mt-4 text-3xl font-bold text-gray-900 sm:text-4xl lg:text-5xl">
+              Get work done, fast!
+            </h2>
+            <p className="mt-6 text-xl text-gray-600 leading-relaxed">
+              Whether you're looking to enhance your digital presence, streamline operations, or build a stronger brand, Daluultech is your trusted partner for tech-driven innovation.
+            </p>
+            <p className="mt-4 text-xl text-gray-600 leading-relaxed">
+              We pride ourselves on a customer-first approach, delivering quality, reliability, and cutting-edge solutions for businesses of all sizes.
+            </p>
+            <a
+              href="#"
+              className="inline-flex items-center justify-center px-8 py-3 mt-8 text-base font-medium text-white bg-blue-600 border border-transparent rounded-md shadow-sm hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500 transition-colors duration-300"
+            >
+              Explore more
+              <svg
+                className="w-5 h-5 ml-2 -mr-1"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 20 20"
+                fill="currentColor"
+                aria-hidden="true"
+              >
+                <path
+                  fillRule="evenodd"
+                  d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
+                  clipRule="evenodd"
+                />
+              </svg>
+            </a>
+          </div>
         </div>
-    </div>
+      </div>
     </section>
-
-    )
+  );
 }
 
-export default About
+export default About;
