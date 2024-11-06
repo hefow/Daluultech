@@ -38,7 +38,7 @@ function getServiceDescription(title) {
 
 export default function Services() {
   return (
-    <section className="py-5 bg-gradient-to-b from-white to-gray-100 sm:py-16 lg:py-24">
+    <section id="Services" className="py-5 bg-gradient-to-b from-white to-gray-100 sm:py-16 lg:py-24">
       <h1 className="text-center py-10 text-4xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-purple-500 animate-pulse ">
         What We Offer
       </h1>

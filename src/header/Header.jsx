@@ -124,6 +124,7 @@
 
 import React, { useState, useEffect } from "react";
 import logo from '../images/logo.jpg';
+import { Link } from "react-router-dom";
 
 function Header() {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -174,47 +175,47 @@ function Header() {
 
           {/* Desktop Menu */}
           <div className="hidden lg:flex lg:items-center lg:ml-auto lg:space-x-10">
-            <a href="#" className={`text-base font-medium transition-all duration-200 hover:text-blue-600 focus:text-blue-600 ${isScrolled ? "text-gray-900" : "text-white"}`}>
+            <Link to={"/"} className={`text-base font-medium transition-all duration-200 hover:text-blue-600 focus:text-blue-600 ${isScrolled ? "text-gray-900" : "text-white"}`}>
               Home
-            </a>
-            <a href="#Services" className={`text-base font-medium transition-all duration-200 hover:text-blue-600 focus:text-blue-600 ${isScrolled ? "text-gray-900" : "text-white"}`}>
+            </Link>
+            <Link to={"/services"} className={`text-base font-medium transition-all duration-200 hover:text-blue-600 focus:text-blue-600 ${isScrolled ? "text-gray-900" : "text-white"}`}>
               Service
-            </a>
-            <a href="#About" className={`text-base font-medium transition-all duration-200 hover:text-blue-600 focus:text-blue-600 ${isScrolled ? "text-gray-900" : "text-white"}`}>
+            </Link>
+            <Link to={"/about"} className={`text-base font-medium transition-all duration-200 hover:text-blue-600 focus:text-blue-600 ${isScrolled ? "text-gray-900" : "text-white"}`}>
               About
-            </a>
-            <a href="#ContactForm" className={`text-base font-medium transition-all duration-200 hover:text-blue-600 focus:text-blue-600 ${isScrolled ? "text-gray-900" : "text-white"}`}>
+            </Link>
+            <Link to={"/contact"} className={`text-base font-medium transition-all duration-200 hover:text-blue-600 focus:text-blue-600 ${isScrolled ? "text-gray-900" : "text-white"}`}>
               Contact
-            </a>
+            </Link>
           </div>
 
-          <a href="#" className="items-center justify-center hidden px-4 py-3 ml-10 text-base font-semibold text-white transition-all duration-200 bg-blue-600 border border-transparent rounded-md lg:inline-flex hover:bg-blue-700 focus:bg-blue-700" role="button">
+          <Link to={"/contact"} className="items-center justify-center hidden px-4 py-3 ml-10 text-base font-semibold text-white transition-all duration-200 bg-blue-600 border border-transparent rounded-md lg:inline-flex hover:bg-blue-700 focus:bg-blue-700" role="button">
             Get started now
-          </a>
+          </Link>
         </nav>
 
         {/* Mobile Menu */}
         {isMobileMenuOpen && (
           <nav className="pt-4 pb-6 bg-white border border-gray-200 rounded-md shadow-md lg:hidden">
             <div className="flex flex-col px-6 -my-2 space-y-1">
-              <a href="#" className="inline-flex py-2 text-base font-medium text-gray-900 transition-all duration-200 hover:text-blue-600 focus:text-blue-600">
+              <Link to={"/"} className="inline-flex py-2 text-base font-medium text-gray-900 transition-all duration-200 hover:text-blue-600 focus:text-blue-600">
                 Home
-              </a>
-              <a href="#Services" className="inline-flex py-2 text-base font-medium text-gray-900 transition-all duration-200 hover:text-blue-600 focus:text-blue-600">
+              </Link>
+              <Link to={"/services"} className="inline-flex py-2 text-base font-medium text-gray-900 transition-all duration-200 hover:text-blue-600 focus:text-blue-600">
                 Service
-              </a>
-              <a href="#About" className="inline-flex py-2 text-base font-medium text-gray-900 transition-all duration-200 hover:text-blue-600 focus:text-blue-600">
+              </Link>
+              <Link to={"/about"} className="inline-flex py-2 text-base font-medium text-gray-900 transition-all duration-200 hover:text-blue-600 focus:text-blue-600">
                 About
-              </a>
-              <a href="#ContactForm" className="inline-flex py-2 text-base font-medium text-gray-900 transition-all duration-200 hover:text-blue-600 focus:text-blue-600">
+              </Link>
+              <Link to={"/contact"} className="inline-flex py-2 text-base font-medium text-gray-900 transition-all duration-200 hover:text-blue-600 focus:text-blue-600">
                 Contact
-              </a>
+              </Link>
             </div>
 
             <div className="px-6 mt-6">
-              <a href="#" className="inline-flex justify-center px-4 py-3 text-base font-semibold text-white transition-all duration-200 bg-blue-600 border border-transparent rounded-md hover:bg-blue-700 focus:bg-blue-700" role="button">
+              <Link to={"/contact"} className="inline-flex justify-center px-4 py-3 text-base font-semibold text-white transition-all duration-200 bg-blue-600 border border-transparent rounded-md hover:bg-blue-700 focus:bg-blue-700" role="button">
                 Get started now
-              </a>
+              </Link>
             </div>
           </nav>
         )}

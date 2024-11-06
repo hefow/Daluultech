@@ -3,114 +3,10 @@ import React from "react";
 
 function Footer(){
     return (
-        <section class="py-10 bg-white sm:pt-16 lg:pt-24">
-    <div class="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
-        <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-12 gap-y-12 gap-x-8 xl:gap-x-12">
-            <div class="col-span-2 md:col-span-4 xl:pr-8">
-                <img class="w-auto h-9" src="./images/logo.jpg" alt="" />
-
-                <p class="text-base leading-relaxed text-gray-600 mt-7">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
-
-                <a href="#" title="" class="inline-flex items-center justify-center px-6 py-4 font-semibold text-white transition-all duration-200 bg-blue-600 rounded-md hover:bg-blue-700 focus:bg-blue-700 mt-7">
-                    <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z" />
-                    </svg>
-                    Get in toach
-                </a>
-            </div>
-
-            <div class="lg:col-span-2">
-                <p class="text-base font-semibold text-gray-900">Company</p>
-
-                <ul class="mt-6 space-y-5">
-                    <li>
-                        <a href="#" title="" class="flex text-sm text-gray-800 transition-all duration-200 hover:text-orange-600 focus:text-orange-600"> About </a>
-                    </li>
-
-                    <li>
-                        <a href="#" title="" class="flex text-sm text-gray-800 transition-all duration-200 hover:text-orange-600 focus:text-orange-600"> Features </a>
-                    </li>
-
-                    <li>
-                        <a href="#" title="" class="flex text-sm text-gray-800 transition-all duration-200 hover:text-orange-600 focus:text-orange-600"> Works </a>
-                    </li>
-
-                    <li>
-                        <a href="#" title="" class="flex text-sm text-gray-800 transition-all duration-200 hover:text-orange-600 focus:text-orange-600"> Career </a>
-                    </li>
-                </ul>
-            </div>
-
-            <div class="lg:col-span-2">
-                <p class="text-base font-semibold text-gray-900">Help</p>
-
-                <ul class="mt-6 space-y-4">
-                    <li>
-                        <a href="#" title="" class="flex text-sm text-gray-800 transition-all duration-200 hover:text-orange-600 focus:text-orange-600"> Customer Support </a>
-                    </li>
-
-                    <li>
-                        <a href="#" title="" class="flex text-sm text-gray-800 transition-all duration-200 hover:text-orange-600 focus:text-orange-600"> Delivery Details </a>
-                    </li>
-
-                    <li>
-                        <a href="#" title="" class="flex text-sm text-gray-800 transition-all duration-200 hover:text-orange-600 focus:text-orange-600"> Terms & Conditions </a>
-                    </li>
-
-                    <li>
-                        <a href="#" title="" class="flex text-sm text-gray-800 transition-all duration-200 hover:text-orange-600 focus:text-orange-600"> Privacy Policy </a>
-                    </li>
-                </ul>
-            </div>
-
-            <div class="lg:col-span-2">
-                <p class="text-base font-semibold text-gray-900">Resources</p>
-
-                <ul class="mt-6 space-y-5">
-                    <li>
-                        <a href="#" title="" class="flex text-sm text-gray-800 transition-all duration-200 hover:text-orange-600 focus:text-orange-600"> Free eBooks </a>
-                    </li>
-
-                    <li>
-                        <a href="#" title="" class="flex text-sm text-gray-800 transition-all duration-200 hover:text-orange-600 focus:text-orange-600"> Development Tutorial </a>
-                    </li>
-
-                    <li>
-                        <a href="#" title="" class="flex text-sm text-gray-800 transition-all duration-200 hover:text-orange-600 focus:text-orange-600"> How to - Blog </a>
-                    </li>
-
-                    <li>
-                        <a href="#" title="" class="flex text-sm text-gray-800 transition-all duration-200 hover:text-orange-600 focus:text-orange-600"> YouTube Playlist </a>
-                    </li>
-                </ul>
-            </div>
-
-            <div class="lg:col-span-2">
-                <p class="text-base font-semibold text-gray-900">Extra Links</p>
-
-                <ul class="mt-6 space-y-5">
-                    <li>
-                        <a href="#" title="" class="flex text-sm text-gray-800 transition-all duration-200 hover:text-orange-600 focus:text-orange-600"> Customer Support </a>
-                    </li>
-
-                    <li>
-                        <a href="#" title="" class="flex text-sm text-gray-800 transition-all duration-200 hover:text-orange-600 focus:text-orange-600"> Delivery Details </a>
-                    </li>
-
-                    <li>
-                        <a href="#" title="" class="flex text-sm text-gray-800 transition-all duration-200 hover:text-orange-600 focus:text-orange-600"> Terms & Conditions </a>
-                    </li>
-
-                    <li>
-                        <a href="#" title="" class="flex text-sm text-gray-800 transition-all duration-200 hover:text-orange-600 focus:text-orange-600"> Privacy Policy </a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-
+        <section>
         <hr class="mt-16 mb-10 border-gray-200" />
 
-        <div class="sm:flex sm:items-center sm:justify-between">
+        <div class="sm:flex sm:items-center sm:justify-between p-5">
             <p class="text-sm text-gray-600">© Copyright 2024, All Rights Reserved by Daluultech</p>
 
             <ul class="flex items-center mt-5 space-x-3 md:order-3 sm:mt-0">
@@ -173,7 +69,6 @@ function Footer(){
                 </li>
             </ul>
         </div>
-    </div>
 </section>
 
     )

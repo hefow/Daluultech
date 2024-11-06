@@ -5,17 +5,20 @@ import Services from "./services/Services";
 import About from "./about/About";
 import ContactForm from "./contact/ContactForm";
 import Footer from "./footer/Footer";
+import { Route, Routes } from "react-router-dom";
+import Home from "./pages/Home";
+import NotFound from "./pages/NotFound";
 
 function App(){
   return(
-    <div>
-       <Header/>
-       <Hero/>
-       <Services/>
-       <About/>
-       <ContactForm/>
-       <Footer/>
-       </div>
+   <Routes>
+    <Route path="/" element={<Home/>} />
+    <Route path="/about" element={<About/>} />
+    <Route path="/contact" element={<ContactForm/>} />
+    <Route path="/services" element={<Services/>} />
+    <Route path="*" element={<NotFound/>} />
+
+   </Routes>
   )
 }
 
